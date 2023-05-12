@@ -15,7 +15,7 @@ void printMultiplicationTable(int n) {
 	int i, j;
 	
 	for (i = 1; i <= n; i++) {
-		for (j = 1; j <=n; j++) {
+		for (j = 1; j <= 10; j++) {
 			printf("%2d\t", i * j);
 		}
 		printf("\n");
