@@ -29,7 +29,7 @@ void printMultiplicationTable(int n) {
 	printf("\nThe multiplication table for a number %d:\n\n", n);
 	
 	while (i <= n) {
-		while (j <= n) {
+		while (j <= 10) {
 			printf("%2d\t", i * j);
 			j++;
 		}
